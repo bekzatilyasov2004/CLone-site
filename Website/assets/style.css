@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css2?family=Electrolize&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Electrolize', sans-serif;
+    
+}
+.wrapper{
+    overflow-x: hidden;
+}
+
+.menyu{
+    width: 400px;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    transition: all 2s;
+    z-index: 100;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    flex-basis: 50%;
+}
+
+.about-img{
+    width: 50%;
+    height: 100vh;
+    background-image: url(./about.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-info{
+    width: 50%;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+.offer{
+    background: #1A1F25;
+    color:#f1f1f1;
+}
+
+.icon{
+    width: 250px;
+    height: 250px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.icon:hover{
+    box-shadow: 15px 15px 10px #000;
+    transform: scale(1.1);
+}
+
+.advantage{
+    width: 100%;
+    height: 100vh;
+    background: url(./photo.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.info{
+    width: 450px;
+    height: 70px;
+    padding: 5px;
+    text-align: left;
+}
+
+.contact-email{
+    width: 50%;
+    height: 100vh;
+    background-image: url(./contact.jpeg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0.5) brightness(0.8) contrast(1.2);
+}
+
+.plane{
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+}
+ 
+.form{
+    width: 300px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+input{
+    width: 300px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-top: 10px;
+}
+
+.card{
+    width: 170px;
+    height: 260px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.plan{
+    text-decoration: line-through;
+}
+
+.card-gradient{
+    background: linear-gradient(0deg,rgb(80, 80, 146),rgb(160, 160, 224));
+}
+
+@media (max-width: 868px){
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-email{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .plane{
+        width: 100%;
+        height: 60vh;
+    }
+
+}
+
+@media (max-width: 868px){
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .about-info{
+        width: 100%;
+        height: 60vh;
+    }
+
+}
+
+
+
+.btn{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Digital Flow</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Hero-->
+        <div class="hero">
+            <!--Header-->
+            <header class="header fixed t-0 flex items-center justify-around w-full h-100">
+                <div class="logo flex items-center justify-around">
+                    <img id="logo" src="./assets/icons.svg" width="70" height="70" alt="logo">
+                    <h1 class="text-4xl">Digital Flow</h1>
+                </div>
+                <div class="menyu md:flex items-center hidden flex items-center justify-around">
+                    <a href="#"
+                        class="text-gray-500 hover:text-gray-900 font-medium px-4 py-2 rounded-md transition duration-300 ease-in-out">Home</a>
+                    <a href="#about"
+                        class="text-gray-500 hover:text-gray-900 font-medium px-4 py-2 rounded-md transition duration-300 ease-in-out">About</a>
+                    <a href="#portfolio"
+                        class="text-gray-500 hover:text-gray-900 font-medium px-4 py-2 rounded-md transition duration-300 ease-in-out">Portfolio</a>
+                    <a href="#offer"
+                        class="text-gray-500 hover:text-gray-900 font-medium px-4 py-2 rounded-md transition duration-300 ease-in-out">Offer</a>
+                    <a href="#advantage"
+                        class="text-gray-500 hover:text-gray-900 font-medium px-4 py-2 rounded-md transition duration-300 ease-in-out">Advantage</a>
+                    <a href="#contact"
+                        class="text-gray-500 hover:text-gray-900 font-medium px-4 py-2 rounded-md transition duration-300 ease-in-out">Contact</a>
+                </div>
+            </header>
+
+            <div class="flex flex-col items-center justify-around">
+                <h1 class="mt-60 text-5xl">WEB APPLICATIONS</h1>
+                <p class="mt-5"> Повседневная практика.</p>
+                <div class="border border-black mt-5 p-2 btn flex iteams-center justify-around">
+                    Спец предложение
+                    <i class="bi bi-caret-right ml-5"></i>
+                </div>
+            </div>
+        </div>
+        <div class="about w-full flex items-center justify-around" id="about">
+            <div class="about-img"></div>
+            <div class="about-info flex items-center justify-center flex-col">
+                <h1 class="text-4xl text-center">О компании</h1>
+                <p class="mt-8 text-right">Мы диджитал агентство занимаемся полным циклом<br /> продвижения компаний в
+                    интернете.</p>
+                <p class="mt-8 text-right">Разработка сайтов – Сделаем уникальный дизайн<br /> согласно вашему
+                    фирменному стилю. Напишем чистый<br /> код, без использования конструкторов.</p>
+                <p class="mt-8 text-right">Продвижение – поможем вам быстро добиться<br /> желаемого результата,
+                    обеспечим постоянный приток<br /> новых заявок.</p>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div class="portfolio " id="portfolio">
+            <h1 class="text-4xl text-center mt-10">Портфолио</h1>
+            <div class="w-full flex items-center justify-center mt-5">
+                <video autoplay muted loop>
+                    <source src="./assets/portfolio.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="flex mb-5 items-center justify-center">
+                <div class="border border-black mt-5 p-2 btn flex iteams-center justify-around">
+                    Перейти на сайт
+                    <i class="bi bi-caret-right ml-5"></i>
+                </div>
+            </div>
+        </div>
+        <!--Section Offer-->
+        <div class="offer p-5" id="offer">
+            <h1 class="text-4xl text-center">Что мы предлагаем</h1>
+            <div class="icons flex flex-wrap  p-20 justify-around items-center">
+                <div class="icon  flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/1.png" alt="icons" width="50" height="50">
+                    <p>Высокий уровень исполнения </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/2.png" alt="icons" width="50" height="50">
+                    <p>Гарантируем качество работы </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/3.png" alt="icons" width="50" height="50">
+                    <p>Выполним работу быстро </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/4.png" alt="icons" width="50" height="50">
+                    <p>Обеспечим поток заявок </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/5.png" alt="icons" width="50" height="50">
+                    <p>Автоматизируем работу </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/6.png" alt="icons" width="50" height="50">
+                    <p>Разработаем уникальный дизайн </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/7.png" alt="icons" width="50" height="50">
+                    <p>Напишем чистый
+                        код </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/8.png" alt="icons" width="50" height="50">
+                    <p>Контекстная
+                        реклама </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/9.png" alt="icons" width="50" height="50">
+                    <p>Третированная реклама </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/10.png" alt="icons" width="50" height="50">
+                    <p>SEO
+                        продвижение </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/11.png" alt="icons" width="50" height="50">
+                    <p>Продвижение в социальных сетях </p>
+                </div>
+                <div class="icon flex flex-col items-center justify-center gap-10">
+                    <img src="./assets/icons/2.png" alt="icons" width="50" height="50">
+                    <p>Высокий уровень исполнения </p>
+                </div>
+                <div class="flex justify-center items-center mt-5 w-full">
+                    <div class="border border-white mt-5 p-2 btn flex iteams-center justify-around">
+                        Подробнее
+                        <i class="bi bi-caret-right ml-5"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Sections Advantage-->
+        <div id="advantage" class="advantage flex items-center  p-30 justify-center">
+            <div class="in text-center p-10 mt-10">
+                <h1 class="text-4xl">Наши преимущества</h1>
+                <div class="flex gap-20 flex-wrap items-center justify-center mt-10">
+                    <div class="info justify-between flex items-center">
+                        <img src="./assets/icons/12.png" width="50" height="50" alt="icons">
+                        <p class="ml-5">Сделаем адаптивный дизайн, под любой вид устройств</p>
+                    </div>
+                    <div class="info justify-between flex items-center">
+                        <img src="./assets/icons/13.png" width="50" height="50" alt="icons">
+                        <p class="ml-5">Установим на сайт счетчики аналитики и настроим возможность отслеживать
+                            результаты прямо с вашего мобильного телефона</p>
+                    </div>
+                    <div class="info justify-between flex items-center">
+                        <img src="./assets/icons/14.png" width="50" height="50" alt="icons">
+                        <p class="ml-5">Настроим все возможные способы обратной связи. Заявки на почту, подключим онлайн
+                            консультанта, настроим телефонный звон с сайта, подключим Whatsapp к сайту</p>
+                    </div>
+                    <div class="info justify-between flex items-center">
+                        <img src="./assets/icons/15.png" width="50" height="50" alt="icons">
+                        <p class="ml-5">Проведем анализ вашей сферы и конкурентов, предложим лучшие инструменты для
+                            продвижения в интернете</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Contact-->
+        <div id="contact" class="contact flex items-center justify-around">
+            <div class="contact-email flex items-center  justify-end ">
+                <div class="form gap-5 flex flex-col items-start  mr-20 justify-center">
+                    <h1 class="text-center text-4xl mb-20">Заявка</h1>
+                    <label for="name">Ваше имя</label>
+                    <input id="name" type="text" required />
+                    <label for="email">Ваше Email</label>
+                    <input id="email" type="email" required>
+                    <label for="message">Сообщение</label>
+                    <input id="message" type="text" required>
+                    <div class="border btn border-white mt-5 p-2 btn flex iteams-center justify-around">
+                        Отправить
+                        <i class="bi bi-caret-right ml-5"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="plane bg-black p-5 flex flex-col items-center justify-around">
+                <h1 class="text-start text-4xl mt-10">Спец предложения </h1>
+                <div class="wrapp flex items-start justify-around mb-10 gap-1">
+                    <div class="card border border-white flex p-5  items-start justify-center flex-col ">
+                        <h1 class="text-start text-xl mt-5 ">Landing Page</h1>
+                        <p class="mt-5">продающая посадочная страница. </p>
+                        <p class="plan mt-5">150 000 ₸</p>
+                        <h1 class="text-2xl">150 000 ₸</h1>
+                    </div>
+                    <div class="card card-gradient border border-white flex p-5  items-start justify-center flex-col ">
+                        <h1 class="text-start text-xl mt-5 ">Бизнес сайт</h1>
+                        <p class="mt-5">Корпоративный сайт. </p>
+                        <p class="plan mt-10">150 000 ₸</p>
+                        <h1 class="text-2xl">150 000 ₸</h1>
+                    </div>
+                    <div class="card border border-white flex p-5  items-start justify-center flex-col ">
+                        <h1 class="text-start text-xl mt-5 ">Контекстная
+                            реклама</h1>
+                        <p class="mt-5">Запуск контекстной рекламы на месяц </p>
+                        <p class="plan mt-5"></p>
+                        <h1 class="text-2xl"> Бесплатно</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer class="footer bg-black text-gray-200 p-5 sm:p-10 lg:p-20 flex flex-col items-center justify-center gap-10">
+            <div class="flex flex-col md:flex-row items-start justify-around gap-10 w-full max-w-7xl">
+              <div class="flex flex-col items-start justify-around text-start flex-1">
+                <h2 class="text-xl font-bold mb-5">About</h2>
+                <p class="text-sm mb-5">In our pursuit of enhancing the user experience, we sometimes overlook that many renowned individuals.</p>
+                <ul class="text-sm space-y-2">
+                  <li>Item</li>
+                  <li>Item</li>
+                </ul>
+              </div>
+              <div class="flex flex-col items-start justify-around text-start flex-1">
+                <h2 class="text-xl font-bold mb-5">Services</h2>
+                <p class="text-sm mb-5">In our pursuit of enhancing the user experience, we sometimes overlook that many renowned individuals.</p>
+                <ul class="text-sm space-y-2">
+                  <li>Item</li>
+                  <li>Item</li>
+                </ul>
+              </div>
+              <div class="flex flex-col items-start justify-around text-start flex-1">
+                <h2 class="text-xl font-bold mb-5">Resources</h2>
+                <p class="text-sm mb-5">In our pursuit of enhancing the user experience, we sometimes overlook that many renowned individuals.</p>
+                <ul class="text-sm space-y-2">
+                  <li>Item</li>
+                  <li>Item</li>
+                </ul>
+              </div>
+              <div class="flex flex-col items-start justify-around text-start flex-1">
+                <h2 class="text-xl font-bold mb-10">Contact</h2>
+                <p class="text-sm flex items-center gap-2 mb-3">
+                  <i class="bi bi-telephone text-xl"></i>
+                  +7 777 7777 77 77
+                </p>
+                <p class="text-sm flex items-center gap-2 mb-3">
+                  <i class="bi bi-envelope"></i>
+                  email@email.ru
+                </p>
+                <p class="text-sm flex items-center gap-2">
+                  <i class="bi bi-geo-alt"></i>
+                  Moscow, Russia
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center justify-center w-full">
+              <div class="flex items-center my-4 w-full max-w-7xl">
+                <div class="flex-grow border-t border-gray-400"></div>
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl">
+              <h1 class="text-xl text-bold">digital flow</h1>
+              <div class="flex gap-2 items-center justify-around w-full md:w-auto">
+                <i class="bi bi-telegram"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-envelope"></i>
+                <i class="bi bi-telephone"></i>
+              </div>
+            </div>
+          </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
